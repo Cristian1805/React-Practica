@@ -1,10 +1,11 @@
-import React from "react";
+import React, {Fragment} from "react";
 
 function Hola() {
   return (
-    <div>
+    <Fragment>
      <h2>Primer componente hola</h2>
-    </div>
+     <p>Segundo texto</p>
+    </Fragment>
   )
 }
 
