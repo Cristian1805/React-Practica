@@ -22,8 +22,8 @@ const Temperatura = () => {
                 temperatura > 21 ? 'Hace Calor' : 'Hace Frio'
             } 
         </p>
-        <button onClick={Subir}>Aumentar Temperatura</button>
-        <button onClick={Bajar}>Reducir Temperatura</button>
+        <button className="btn btn-success btn-block" onClick={Subir}>Aumentar Temperatura</button>
+        <button className="btn btn-success btn-block" onClick={Bajar}>Reducir Temperatura</button>
     </div>
   )
 }
